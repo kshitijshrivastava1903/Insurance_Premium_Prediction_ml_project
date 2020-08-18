@@ -12,7 +12,7 @@ As mentioned, medical charges will be our dependent variable and the rest will b
 
 
  After extensive exploratory data analysis, came to the conclusion, that people having smoking habit have very large medical expenses and this feature is very highly correlated with the medical expenses.
- Also, the more the bmi,age the unhealthier the person, the higher the medical expenses. Using Anova test, found out that the region is an insignificant feature for using in model, so dropped it. Male have higher
+ Also, the more the bmi,age the unhealthier the person, the higher the medical expenses. Using Anova test, found out that the region is an insignificant feature for using in model, so dropped it. Males have higher
  average medical expenses than females and medium sized families (2-3) children have higher medical expenses than small(0-1 children) and large(4-5 children). Created 
  the 5 regression models,optimized them, by trying to enhance their r2_score and root mean square error, on the basis of which these algorithms were judged. 
 ## On the basis of the avove analysis, came to the following conlusion:
